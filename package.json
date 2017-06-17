@@ -1,0 +1,40 @@
+{
+  "name": "reprovide",
+  "version": "1.0.0",
+  "description": "A dependency injection library for React",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asn007/reprovide.git"
+  },
+  "keywords": [
+    "react",
+    "dependency",
+    "injection",
+    "dependency injection"
+  ],
+  "author": "Andrey Sinitsyn <andrey.sin98@gmail.com> (https://andrey.space)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asn007/reprovide/issues"
+  },
+  "homepage": "https://github.com/asn007/reprovide#readme",
+  "dependencies": {
+    "isarray": "^2.0.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.0.0 || ^0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
