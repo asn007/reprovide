@@ -1,6 +1,6 @@
 {
   "name": "reprovide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dependency injection library for React",
   "main": "lib/index.js",
   "scripts": {
