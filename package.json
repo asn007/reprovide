@@ -2,7 +2,7 @@
   "name": "reprovide",
   "version": "1.0.0",
   "description": "A dependency injection library for React",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib"
   },
